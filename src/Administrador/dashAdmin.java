@@ -164,7 +164,7 @@ public class dashAdmin extends javax.swing.JFrame {
         jMenuItem24.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F3, 0));
         jMenuItem24.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
         jMenuItem24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/icon-puesto.png"))); // NOI18N
-        jMenuItem24.setText("Cargos Laborales");
+        jMenuItem24.setText("Registrar Puestos Laborales");
         jMenuItem24.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem24ActionPerformed(evt);
@@ -178,12 +178,26 @@ public class dashAdmin extends javax.swing.JFrame {
         jMenu2.setText("Almacen");
         jMenu2.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
 
+        jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F4, 0));
         jMenuItem1.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
-        jMenuItem1.setText("Productos");
+        jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/icon-productos.png"))); // NOI18N
+        jMenuItem1.setText("Registrar Productos");
+        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem1ActionPerformed(evt);
+            }
+        });
         jMenu2.add(jMenuItem1);
 
+        jMenuItem3.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F5, 0));
         jMenuItem3.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
-        jMenuItem3.setText("Categorias");
+        jMenuItem3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/icon-categorias.png"))); // NOI18N
+        jMenuItem3.setText("Registar Categorias");
+        jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem3ActionPerformed(evt);
+            }
+        });
         jMenu2.add(jMenuItem3);
 
         jMenuBar1.add(jMenu2);
@@ -343,6 +357,14 @@ public class dashAdmin extends javax.swing.JFrame {
     private void jMenuItem24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem24ActionPerformed
         adminPuestos.main(null);
     }//GEN-LAST:event_jMenuItem24ActionPerformed
+
+    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+        adminProductos.main(null);
+    }//GEN-LAST:event_jMenuItem1ActionPerformed
+
+    private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
+        adminCategorias.main(null);
+    }//GEN-LAST:event_jMenuItem3ActionPerformed
 
     public static void main(String args[]) {
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">

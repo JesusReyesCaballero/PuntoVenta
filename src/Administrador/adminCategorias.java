@@ -2,9 +2,9 @@ package Administrador;
 
 import javax.swing.table.DefaultTableModel;
 
-public class adminPuestos extends javax.swing.JDialog {
+public class adminCategorias extends javax.swing.JDialog {
 
-    public adminPuestos(java.awt.Frame parent, boolean modal) {
+    public adminCategorias(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
         this.setLocationRelativeTo(null);
@@ -13,7 +13,7 @@ public class adminPuestos extends javax.swing.JDialog {
     }
     
     public void ajustarTbl(){
-        String[] titulos = {"Id", "Puestos Laborales"};
+        String[] titulos = {"Id", "Categoria"};
         DefaultTableModel modelo = new DefaultTableModel(null, titulos);
         tblPuestos.setModel(modelo);
         
@@ -36,7 +36,7 @@ public class adminPuestos extends javax.swing.JDialog {
         jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("Puestos Laborales");
+        setTitle("Registrar Categorias");
 
         jScrollPane1.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
 
@@ -52,7 +52,7 @@ public class adminPuestos extends javax.swing.JDialog {
         jScrollPane1.setViewportView(tblPuestos);
 
         jLabel1.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
-        jLabel1.setText("Nuevo Puesto Laboral");
+        jLabel1.setText("Nueva Categoria");
 
         jTextField1.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
 
@@ -107,19 +107,19 @@ public class adminPuestos extends javax.swing.JDialog {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(adminPuestos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(adminCategorias.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(adminPuestos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(adminCategorias.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(adminPuestos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(adminCategorias.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(adminPuestos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(adminCategorias.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
-        
+
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                adminPuestos dialog = new adminPuestos(new javax.swing.JFrame(), true);
+                adminCategorias dialog = new adminCategorias(new javax.swing.JFrame(), true);
                 dialog.addWindowListener(new java.awt.event.WindowAdapter() {
                     @Override
                     public void windowClosing(java.awt.event.WindowEvent e) {
