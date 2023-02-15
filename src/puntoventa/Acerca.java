@@ -17,7 +17,7 @@ public class Acerca extends javax.swing.JDialog {
         initComponents();
         this.setLocationRelativeTo(null);
 
-        ImageIcon icon = new ImageIcon(".recursos//Gemini.png");
+        ImageIcon icon = new ImageIcon(".recursos//pvLogo.png");
         Image img = icon.getImage().getScaledInstance(txtImg.getWidth(), txtImg.getHeight(), Image.SCALE_SMOOTH);
         Icon icono = new ImageIcon(img);
         txtImg.setIcon(icono);
