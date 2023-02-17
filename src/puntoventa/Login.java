@@ -135,6 +135,7 @@ public class Login extends javax.swing.JFrame {
 
         formLog.setClosable(true);
         formLog.setTitle("Iniciar Sesión");
+        formLog.setFrameIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/icon-iniciarSesion.png"))); // NOI18N
         formLog.setVisible(true);
 
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
