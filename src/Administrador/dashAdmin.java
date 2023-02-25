@@ -206,11 +206,15 @@ public class dashAdmin extends javax.swing.JFrame {
         jMenu3.setText("Compras");
         jMenu3.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
 
+        jMenuItem4.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F6, 0));
         jMenuItem4.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jMenuItem4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/icon-compra.png"))); // NOI18N
         jMenuItem4.setText("Compras");
         jMenu3.add(jMenuItem4);
 
+        jMenuItem5.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F7, 0));
         jMenuItem5.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jMenuItem5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/icon-proveedores.png"))); // NOI18N
         jMenuItem5.setText("Proveedores");
         jMenu3.add(jMenuItem5);
 
@@ -220,10 +224,12 @@ public class dashAdmin extends javax.swing.JFrame {
         jMenu4.setText("Ventas");
         jMenu4.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
 
+        jMenuItem6.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F8, 0));
         jMenuItem6.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
         jMenuItem6.setText("Ventas");
         jMenu4.add(jMenuItem6);
 
+        jMenuItem7.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F9, 0));
         jMenuItem7.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
         jMenuItem7.setText("Clientes");
         jMenu4.add(jMenuItem7);

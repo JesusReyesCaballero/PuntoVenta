@@ -297,7 +297,7 @@ public class adminEmpleados extends javax.swing.JDialog {
         jPanel4.setOpaque(false);
 
         jButton1.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/img-imagen.png"))); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/icon-imagen.png"))); // NOI18N
         jButton1.setText("Examinar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
